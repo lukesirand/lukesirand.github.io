@@ -1,0 +1,107 @@
+head {
+  background-image: url("https://c4.staticflickr.com/4/3837/14828253348_4072c62f4e_z.jpg");
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #808080;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+
+li a:hover {
+  background-color: #999999;
+}
+
+body {
+  background-color: #b3b3b3;
+  fontStyle: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  color: #ffe5ff;
+  background-color: #999999;
+}
+
+h2 {
+  color: #FFFFFF;
+}
+
+p {
+  color: #FFFFFF
+}
+
+button {
+  background-color: border: none;
+  color: #006499;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+menu {
+  fontStyle: Arial, Helvetica, sans-serif;
+}
+
+dropbtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropbtn:hover,
+.dropbtn:focus {
+  background-color: #999999;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #f1f1f1
+}
+
+.show {
+  display: block;
+}
+
+h4 {
+  font-size: 30px;
+  color: #ffe5ff;
+}
