@@ -1,5 +1,5 @@
 //variables
-var c = document.getElementById("myCanvas");
+var c =  document.getElementById("myCanvas");
 var ctx = c.getContext("2d");
 var x = 50
 var y = 50
