@@ -23,12 +23,25 @@ h3 {
   line-height: 28px;
 }
 
+p {
+  font-family: 'Century Gothic';
+  font-weight: 50;
+  color: #cccccc;
+  text-align:center;
+}
+
 
 .banner {
   background-image: url("https://c2.staticflickr.com/6/5559/15014508162_312aa6fa0b_z.jpg");
   background-repeat: no-repeat;
   background-size: 100% 80%;
   margin: 1px 0px 0px 0px;
+}
+
+.linebreak {
+  background-color: #f2b632;
+  color:#f2b632;
+   
 }
 
 .banner img {}
