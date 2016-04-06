@@ -1,123 +1,94 @@
-.banner {
-  background-image: url("https://c4.staticflickr.com/4/3837/14828253348_4072c62f4e_z.jpg");
-  width: 100%;
-  height: 100%;
-  background-repeat: no-repeat;
-  background-size: cover;
-  margin: 0px 0px 0px 0px;
-  color: white;
+body {
+  background-color:#677077
 }
 
-ul {
+h1{
+  font-family: 'Century Gothic';
+  color: #f2b632;
+  
+}
+
+h2 {
+  font-family: 'Century Gothic';
+  font-size: 28px;
+  text-decoration: underline;
+  color: #252839;
+  
+}
+
+h3 {
+  font-family: 'Century Gothic';
+  font-size: 20px;
+  font-weight: 50;
+  color: #cccccc;
+  line-height: 28px;
+  
+}
+
+p {
+  font-family: 'Century Gothic';
+  font-weight: 50;
+  color: #cccccc;
+  text-align:center;
+}
+
+
+.banner {
+  background-image: url("https://c2.staticflickr.com/6/5559/15014508162_312aa6fa0b_z.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 80%;
+  margin: 1px 0px 0px 0px;
+}
+
+.linebreak {
+  background-color: #f2b632;
+  color:#f2b632;
+   
+}
+
+.banner img {}
+
+#navbar {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #808080;
+  background-color:#252839
+;
+  width: 100%;
+  text-align: center;
+  opacity: 0.9;
 }
 
 li {
-  float: left;
+  display: inline-block;
+  text-align: center;
 }
 
 li a {
   display: block;
-  color: white;
+  color: #677077;
   text-align: center;
-  padding: 14px 16px;
+  padding: 14px 20px 14px 20px;
   text-decoration: none;
+  font-family: verdana;
+  font-size: 14px;
 }
-
 
 li a:hover {
-  background-color: #999999;
+  background-color: #f2b632;
 }
 
-body {
-  background-color: #b3b3b3;
-  fontStyle: Arial, Helvetica, sans-serif;
+hr {
+  width: 100%;
 }
 
-h1 {
-  color: #ffe5ff;
-  text-align: center;
+.space {
+    visibility: hidden;
+    line-height: 5%;
 }
 
-h2 {
-  color: #FFFFFF;
-}
-
-h3 {
-  color: #FFFFFF
-}
-
-h4 {
-  text-align: left;
-}
-
-button {
-  background-color: border: none;
-  color: #006499;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-}
-
-menu {
-  fontStyle: Arial, Helvetica, sans-serif;
-}
-
-dropbtn {
-  background-color: #4CAF50;
-  color: white;
-  padding: 16px;
-  font-size: 16px;
-  border: none;
-  cursor: pointer;
-}
-
-.dropbtn:hover,
-.dropbtn:focus {
-  background-color: #999999;
-}
-
-.dropdown {
-  position: relative;
-  display: inline-block;
-}
-
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #f9f9f9;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-}
-
-.dropdown-content a {
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-}
-
-.dropdown-content a:hover {
-  background-color: #f1f1f1
-}
-
-.show {
-  display: block;
-}
-
-canvas {
-  text-align: center;
-}
-
-h4 {
-  opacity: ;
-    filter: alpha(opacity=40);
-  text-align: center
-    
+.imgpos {
+  display: flex;
+  justify-content: center;
 }
