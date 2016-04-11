@@ -36,7 +36,7 @@ p {
 .banner {
   background-image: url("https://c2.staticflickr.com/6/5559/15014508162_312aa6fa0b_z.jpg");
   background-repeat: no-repeat;
-  background-size: 100% 80%;
+  background-size: cover;
   margin: 1px 0px 0px 0px;
 }
 
