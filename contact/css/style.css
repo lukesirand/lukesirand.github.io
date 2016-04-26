@@ -32,6 +32,9 @@ p {
   text-align:center;
 }
 
+a {
+  color: #cccccc;
+}
 
 .banner {
   background-image: url("https://c2.staticflickr.com/6/5559/15014508162_312aa6fa0b_z.jpg");
@@ -91,4 +94,20 @@ hr {
 .imgpos {
   display: flex;
   justify-content: center;
+}
+
+#share-buttons img {
+  width: 35px;
+  padding: 5px;
+  border: 0;
+  box-shadow: 0;
+  display: inline;
+  font: #677077;
+  float: right;
+  margin: 0 0 10px 10px;
+}
+
+#share-buttons:hover {
+  opacity: 0.4;
+  filter: alpha(opacity=40);
 }
