@@ -1,113 +1,150 @@
-.banner {
-  background-image: url("https://c4.staticflickr.com/4/3837/14828253348_4072c62f4e_z.jpg");
-  width: 100%;
-  height: 100%;
-  background-repeat: no-repeat;
-  background-size: cover;
-  margin: 0px 0px 0px 0px;
-  color: white;
+body {
+  font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+  position: relative;
 }
 
-ul {
+.title {
+  position:relative;
+  left: 0;
+  top: 0px;
+  width: 325px;
+  height: 150px;
+  border: 3px solid #000000;
+  background: #000000;
+  color: #ffffff;
+  
+}
+h1 {
+	font-size: 50px;
+	font-style: normal;
+	font-variant: normal; 
+	font-weight: 500;
+	line-height: 27.4px;
+}
+
+#photo {
+	font-size: 50px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 26.4px;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  25% {
+    opacity: 0.00;
+  }
+  50% {
+    background-color: 0.50;
+  }
+  75% {
+    opacity: 0.75;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.title {animation-name: fadeIn;
+  animation-duration: 1s;}
+
+h1 {animation-name: fadeIn;
+  animation-duration: 2s;}
+
+#photo {animation-name: fadeIn;
+  animation-duration: 3s;}
+
+.slideshow {animation-name: fadeIn;
+  animation-duration: 7s;}
+
+#navbar {
   list-style-type: none;
-  margin: 0;
+  margin: 10;
   padding: 0;
   overflow: hidden;
-  background-color: #808080;
+  width: 100%;
+  opacity: 0.9;
 }
 
 li {
-  float: left;
 }
 
 li a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
+  color: #677077;
+  padding: 14px 20px 14px 20px;
+  line-height: 1.80;
   text-decoration: none;
+  font-size: 25px;
+  font-weight: 100;
+  transition: font-size 1s, opacity 1s, color 1s, font-weight 1s;
 }
 
+li a {animation-name: fadeIn;
+  animation-duration: 5s;}
 
 li a:hover {
-  background-color: #999999;
+  opacity: 1.3;
+  font-size: 28px;
+  color: #000000;
+  font-weight: 500;
+  
 }
 
-body {
-  background-color: #b3b3b3;
-  fontStyle: Arial, Helvetica, sans-serif;
-}
-
-h1 {
-  color: #ffe5ff;
-  background-color: #999999;
-}
-
-h2 {
-  color: #FFFFFF;
-}
-
-p {
-  color: #FFFFFF
-}
-
-button {
-  background-color: border: none;
-  color: #006499;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-}
-
-menu {
-  fontStyle: Arial, Helvetica, sans-serif;
-}
-
-dropbtn {
-  background-color: #4CAF50;
-  color: white;
-  padding: 16px;
-  font-size: 16px;
-  border: none;
-  cursor: pointer;
-}
-
-.dropbtn:hover,
-.dropbtn:focus {
-  background-color: #999999;
-}
-
-.dropdown {
-  position: relative;
-  display: inline-block;
-}
-
-.dropdown-content {
-  display: none;
+.slideshow {
   position: absolute;
-  background-color: #f9f9f9;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  right: 0;
+  top: 185px;
+  font-size: 50px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 26.4px;
+  width: 800px;
+  height: 400px;
+  /*border: 3px solid #73AD21;*/
 }
 
-.dropdown-content a {
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  25% {
+    opacity: 0.00;
+  }
+  50% {
+    background-color: 0.50;
+  }
+  75% {
+    opacity: 0.75;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
-.dropdown-content a:hover {
-  background-color: #f1f1f1
-}
-
-.show {
-  display: block;
-}
-
-h4 {
-  font-size: 30px;
-  color: #ffe5ff;
+@keyframes grow {
+  0% {
+    opacity: .9;
+    font-size: 14px;
+  }
+  25% {
+    opacity: 1;
+    font-size: 14.5px;
+  }
+  50% {
+    opacity: 1.1;
+    font-size: 15px;
+  }
+  75% {
+    opacity: 1.2;
+    font-size: 15.5px;
+  }
+  100% {
+    opacity: 1.3;
+    font-size; 16px
+  }
 }
